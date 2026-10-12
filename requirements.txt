@@ -1,0 +1,14 @@
+# GPU (CUDA 12.8) build of torch/torchvision used for this project:
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# For CPU-only or a different CUDA version, install torch/torchvision per
+# the official selector at https://pytorch.org, then install the rest below.
+torch>=2.1
+torchvision>=0.16
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+jupyter
+ipykernel
+
